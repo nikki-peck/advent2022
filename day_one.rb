@@ -15,4 +15,7 @@ class DayOne
 
   totals = totals.sort.reverse
   puts("Elf with the most calories has #{totals[0]} calories")
+
+  top_three = totals[0] + totals[1] + totals[2]
+  puts("Top three Elves are carrying #{top_three} calories")
 end
