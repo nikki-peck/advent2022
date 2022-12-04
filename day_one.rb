@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# top level documentation comment
 class DayOne
   total = 0
   totals = []
